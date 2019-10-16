@@ -1,0 +1,11 @@
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\bin\Debug\netcoreapp2.2\ConsoleApplication.deps.json
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\bin\Debug\netcoreapp2.2\ConsoleApplication.runtimeconfig.json
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\bin\Debug\netcoreapp2.2\ConsoleApplication.runtimeconfig.dev.json
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\bin\Debug\netcoreapp2.2\ConsoleApplication.dll
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\bin\Debug\netcoreapp2.2\ConsoleApplication.pdb
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.csprojAssemblyReference.cache
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.AssemblyInfo.cs
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.dll
+C:\Users\leokn\Documents\c#\essential_c-sharp1\ConsoleApplication\obj\Debug\netcoreapp2.2\ConsoleApplication.pdb
