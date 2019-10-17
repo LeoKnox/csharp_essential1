@@ -10,6 +10,7 @@ namespace ConsoleApplication
             Console.Write(" Press enter ");
             Console.WriteLine(" To continue");
             Console.ReadLine();
+            string test = " test  ";
         }
     }
 }
