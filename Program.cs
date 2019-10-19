@@ -8,6 +8,11 @@ namespace ConsoleApplication
         {
             num = num +3;
         }
+        private static string MakeOut(out int num)
+        {
+            string returnStr = "num = " + num.ToString();
+            return returnStr;
+        }
         static void Main(string[] args)
         {
             whichPart = 2;
@@ -20,7 +25,9 @@ namespace ConsoleApplication
             var two = 103.4f;
             var three = DateTime.Now;
             string.Format("Hello {0}. What time is it? {1:T}. Here's a number {2:0.00}.", one, two, three);
-            MakeRef(ref 3);
+            int i = 3;
+            MakeRef(ref i);
+            string test = MakeOut(out i);
             Console.ReadLine();
         }
     }
