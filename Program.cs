@@ -4,6 +4,10 @@ namespace ConsoleApplication
 {
     class Program
     {
+        private static int MakeRef(ref int num)
+        {
+            num = num +3;
+        }
         static void Main(string[] args)
         {
             whichPart = 2;
@@ -16,6 +20,7 @@ namespace ConsoleApplication
             var two = 103.4f;
             var three = DateTime.Now;
             string.Format("Hello {0}. What time is it? {1:T}. Here's a number {2:0.00}.", one, two, three);
+            MakeRef(ref 3);
             Console.ReadLine();
         }
     }
