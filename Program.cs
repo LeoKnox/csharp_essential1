@@ -28,6 +28,11 @@ namespace ConsoleApplication
             int i = 3;
             MakeRef(ref i);
             string test = MakeOut(out i);
+            string testString = "i wanna cheesburger, chips and a beer!";
+            int pos = testString.IndexOf("e");
+            int posa = testString.LastIndexOf("ee");
+            boolean posb = testString.Contains("chip");
+            boolean posc = testString.StartsWith("wan");
             Console.ReadLine();
         }
     }
