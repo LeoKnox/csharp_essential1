@@ -39,11 +39,14 @@ namespace SchoolLibrary
                 PhoneNumber = SchoolPhoneNumber;
             }
 
-            public float AverageThreeScores(float a, float b, float c)
+            /* public float AverageThreeScores(float a, float b, float c)
             {
                 var result = (a + b + c) / 3;
                 return result;
-            }
+            } */
+
+            // function bodied expression notice no return statement
+            public float AverageThreeScores(float a, float b, float c) => (a + b+ c) / 3;
 
             // overloading method, same name but different parameter types
             public int AverageThreeScores(int a, int b, int c)
