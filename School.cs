@@ -32,11 +32,24 @@ namespace SchoolLibrary
                 PhoneNumber = "555-1234";
             }
 
-            // alternate constructer if parameters are passed
+            // alternate constructer used if parameters are passed
             public School(string SchoolName, string SchoolPhoneNumber)
             {
                 Name = SchoolName;
                 PhoneNumber = SchoolPhoneNumber;
+            }
+
+            public float AverageThreeScores(float a, float b, float c)
+            {
+                var result = (a + b + c) / 3;
+                return result;
+            }
+
+            // overloading method, same name but different parameter types
+            public int AverageThreeScores(int a, int b, int c)
+            {
+                var result = (a + b + c) / 3;
+                return result;
             }
         }
     }
