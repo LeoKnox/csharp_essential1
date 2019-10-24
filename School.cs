@@ -26,34 +26,50 @@ namespace SchoolLibrary
                 }
             }
 
-            public School() // constructor does not have return type or void
-            {
-                Name = "Untitled School";
-                PhoneNumber = "555-1234";
-            }
+        }
+        public School() // constructor does not have return type or void
+        {
+            Name = "Untitled School";
+            PhoneNumber = "555-1234";
+        }
 
-            // alternate constructer used if parameters are passed
-            public School(string SchoolName, string SchoolPhoneNumber)
-            {
-                Name = SchoolName;
-                PhoneNumber = SchoolPhoneNumber;
-            }
+        // alternate constructer used if parameters are passed
+        public School(string SchoolName, string SchoolPhoneNumber)
+        {
+            Name = SchoolName;
+            PhoneNumber = SchoolPhoneNumber;
+        }
 
-            /* public float AverageThreeScores(float a, float b, float c)
-            {
-                var result = (a + b + c) / 3;
-                return result;
-            } */
+        /* public float AverageThreeScores(float a, float b, float c)
+        {
+            var result = (a + b + c) / 3;
+            return result;
+        } */
 
-            // function bodied expression notice no return statement
-            public float AverageThreeScores(float a, float b, float c) => (a + b+ c) / 3;
+        // function bodied expression notice no return statement
+        public static float AverageThreeScores(float a, float b, float c) => (a + b+ c) / 3;
 
-            // overloading method, same name but different parameter types
-            public int AverageThreeScores(int a, int b, int c)
-            {
-                var result = (a + b + c) / 3;
-                return result;
-            }
+        // overloading method, same name but different parameter types
+
+        public static int AverageThreeScores(int a, int b, int c)
+        // adding static can use function outside of class without instatianting it
+        {
+            var result = (a + b + c) / 3;
+            return result;
+        }
+
+        public override ToString()
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine(Name);
+            sb.AppendLine(Address);
+            sb.AppendLine(City);
+            sb.Append(", ");
+            sb.Append(State);
+            sb.Append("  ");
+            sb.Append(Zip);
+
+            return sb.ToString();
         }
     }
 }
