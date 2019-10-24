@@ -4,16 +4,16 @@ using System.Text;
 
 namespace SchoolLibrary
 {
-    class School
+    public class School
     {
-        string Name {get; set;}
-        string Address{get; set;}
-        string City {get; set;}
-        string State {get; set;}
-        string Zip {get; set;}
-        string PhoneNumber {get; set;}
-        string _twitterAddress;
-        string TwitterAddress
+        public string Name {get; set;}
+        public string Address{get; set;}
+        public string City {get; set;}
+        public string State {get; set;}
+        public string Zip {get; set;}
+        public string PhoneNumber {get; set;}
+        private string _twitterAddress;
+        public string TwitterAddress
         {
             //make sure twitter address starts with @
             get { return _twitterAddress; }
@@ -24,6 +24,19 @@ namespace SchoolLibrary
                 } else {
                     throw new Exception("The twitter address must begin with @");
                 }
+            }
+
+            public School() // constructor does not have return type or void
+            {
+                Name = "Untitled School";
+                PhoneNumber = "555-1234";
+            }
+
+            // alternate constructer if parameters are passed
+            public School(string SchoolName, string SchoolPhoneNumber)
+            {
+                Name = SchoolName;
+                PhoneNumber = SchoolPhoneNumber;
             }
         }
     }
