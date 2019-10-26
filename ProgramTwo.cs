@@ -40,4 +40,17 @@ namespace ConsoleApplication
             set { stat = value; }
         }
     }
+    
+    // indexer example
+    public int this[int index]
+    {
+        get
+        {
+            return n[index]
+        }
+        set
+        {
+            n[index] = value;
+        }
+    }
 }
