@@ -41,6 +41,13 @@ namespace ConsoleApplication
         }
     }
     
+    // overload example
+    public static T operator- (T a, T b)
+    {
+        T res = new T(a.num - b.num);
+        return res;
+    }
+    
     // indexer example
     public int this[int index]
     {
