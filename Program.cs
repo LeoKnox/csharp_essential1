@@ -1,39 +1,16 @@
 ﻿using System;
+using SchoolLibrary;
 
-namespace ConsoleApplication
+namespace testthree
 {
     class Program
     {
-        private static int MakeRef(ref int num)
-        {
-            num = num +3;
-        }
-        private static string MakeOut(out int num)
-        {
-            string returnStr = "num = " + num.ToString();
-            return returnStr;
-        }
         static void Main(string[] args)
         {
-            whichPart = 2;
-            Console.WriteLine("Welcome to {0} I give it a {1}!", title, whichPart);
-            Console.Write(" Press enter ");
-            Console.WriteLine(" To continue");
-            string test = " test  ";
-            Console.WriteLine(test.Trim().ToUpper());
-            var one = "World";
-            var two = 103.4f;
-            var three = DateTime.Now;
-            string.Format("Hello {0}. What time is it? {1:T}. Here's a number {2:0.00}.", one, two, three);
-            int i = 3;
-            MakeRef(ref i);
-            string test = MakeOut(out i);
-            string testString = "i wanna cheesburger, chips and a beer!";
-            int pos = testString.IndexOf("e");
-            int posa = testString.LastIndexOf("ee");
-            boolean posb = testString.Contains("chip");
-            boolean posc = testString.StartsWith("wan");
-            Console.ReadLine();
+            School test = new School("Swag", "111111111");
+            Console.WriteLine("I live!");
+            var student = new Student();
         }
+
     }
 }
