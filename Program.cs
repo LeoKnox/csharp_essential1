@@ -9,6 +9,8 @@ namespace testthree
         {
             School test = new School("Swag", "111111111");
             Console.WriteLine("I live!");
+            Console.Write("words:");
+            Console.ReadLine();
             var student = new Student();
         }
 
