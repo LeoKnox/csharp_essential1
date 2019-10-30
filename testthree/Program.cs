@@ -9,6 +9,7 @@ namespace testthree
         {
             School test = new School("Swag", "111111111");
             Console.WriteLine("I live!");
+            String test = Console.ReadLine();
         }
     }
 }
