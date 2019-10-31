@@ -8,7 +8,7 @@ namespace testthree
         static void Main(string[] args)
         {
             School test = new School("Swag", "111111111");
-            Console.WriteLine("I live!");
+            Console.WriteLine("I lived!");
             String test = Console.ReadLine();
         }
     }
