@@ -11,6 +11,9 @@ namespace testthree
             StringBuilder sb  = new StringBuilder("hello ");
             sb.append("you");
             sb.appendLine("!");
+            StringBuilder sb2 = new StringBuilder("I am ");
+            sb.append("being ");
+            sb.append("built");
             if (sb == "true")
             {
                 try Console.WriteLine(sb/3);
