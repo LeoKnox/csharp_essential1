@@ -8,6 +8,17 @@ namespace testthree
         static void Main(string[] args)
         {
             enum Binary {"off", "on"};
+            
+            new bool test = true; // c# cannot convert bool to int
+            if (test == "true")
+            {
+               new int testi = 1
+            }
+            else
+            {
+                new int testi = 0
+            }
+            
             StringBuilder sb  = new StringBuilder("hello ");
             sb.append("you");
             sb.appendLine("!");
