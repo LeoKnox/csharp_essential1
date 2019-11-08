@@ -19,6 +19,12 @@ namespace testthree
                 new int testi = 0
             }
             
+            Dictionary<int, string> dict = new Dictionary<int, string>();
+            
+            dict.Add(1,"First");
+            dict.Add(2, "Second");
+            dict.Add(3, "Third");
+            
             StringBuilder sb  = new StringBuilder("hello ");
             sb.append("you");
             sb.appendLine("!");
