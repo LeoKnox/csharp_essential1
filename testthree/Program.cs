@@ -25,6 +25,14 @@ namespace testthree
             dict.Add(2, "Second");
             dict.Add(3, "Third");
             
+            Stack<string> st = new Stack<string>();
+            
+            st.push("one");
+            st.push("two");
+            Console.WriteLine(st.Pop());
+            Console.WriteLine(st.Peek());
+            st.Clear();
+            
             StringBuilder sb  = new StringBuilder("hello ");
             sb.append("you");
             sb.appendLine("!");
