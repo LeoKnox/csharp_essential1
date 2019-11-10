@@ -9,6 +9,8 @@ namespace testthree
         {
             enum Binary {"off", "on"};
             
+            var unknown = 32; // must be declared with var, cannot be defined and declared
+            
             new bool test = true; // c# cannot convert bool to int
             if (test == "true")
             {
