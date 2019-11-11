@@ -27,6 +27,20 @@ namespace testthree
             dict.Add(2, "Second");
             dict.Add(3, "Third");
             
+            new char multi = 'A';
+            switch (multi)
+            {
+                case 'a':
+                    Console.WriteLine('lower');
+                    break;
+                case 'A':
+                    Console.WriteLine('upper');
+                    break;
+                default:
+                    Console.WriteLine('unknown');
+                    break;
+            }
+            
             Stack<string> st = new Stack<string>();
             
             st.push("one");
