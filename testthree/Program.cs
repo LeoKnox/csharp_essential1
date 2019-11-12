@@ -68,4 +68,16 @@ namespace testthree
             String test = Console.ReadLine();
         }
     }
+    class EncapsulationExample
+    {
+        private int encexam = 0;
+        public void addOne(int x)
+        {
+            encexam += x;
+        }
+        public double showExam()
+        {
+            return encexam;
+        }
+    }
 }
