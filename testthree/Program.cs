@@ -79,5 +79,9 @@ namespace testthree
         {
             return encexam;
         }
+        public void SetExam(int y)
+        {
+            encexam = y;
+        }
     }
 }
