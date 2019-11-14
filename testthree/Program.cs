@@ -84,4 +84,16 @@ namespace testthree
             encexam = y;
         }
     }
+    class WriteLine
+    {
+        Console.Write("Type text: ");
+        string words = Console.ReadLine();
+        Console.WriteLine("Writing " + words + "!");
+    }
+    class MoreLine
+    {
+        Console.WriteLine("Type text: ");
+        string morewords = Consol.ReadLine();
+        Console.WriteLine("Writing, {0}!", morewords);
+    }
 }
