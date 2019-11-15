@@ -95,5 +95,6 @@ namespace testthree
         Console.WriteLine("Type text: ");
         string morewords = Consol.ReadLine();
         Console.WriteLine("Writing, {0}!", morewords);
+        Console.WriteLine("Writing {0} and more {1}!", words, morewords);
     }
 }
