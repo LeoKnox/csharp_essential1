@@ -45,6 +45,7 @@ namespace testthree
             
             st.push("one");
             st.push("two");
+            st.push("plus");
             Console.WriteLine(st.Pop());
             Console.WriteLine(st.Peek());
             st.Clear();
