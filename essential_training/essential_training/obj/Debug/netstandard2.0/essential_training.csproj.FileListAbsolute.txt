@@ -1,0 +1,9 @@
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\bin\Debug\netstandard2.0\essential_training.deps.json
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\bin\Debug\netstandard2.0\essential_training.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\bin\Debug\netstandard2.0\essential_training.pdb
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.csprojAssemblyReference.cache
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.csproj.CoreCompileInputs.cache
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.AssemblyInfoInputs.cache
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.AssemblyInfo.cs
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\essential_training\obj\Debug\netstandard2.0\essential_training.pdb

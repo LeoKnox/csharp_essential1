@@ -1,0 +1,16 @@
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\EssentialTrainingTests.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\EssentialTrainingTests.pdb
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\essential_training.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\essential_training.pdb
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\obj\Debug\EssentialTrainingTests.csprojAssemblyReference.cache
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\obj\Debug\EssentialTrainingTests.csproj.CoreCompileInputs.cache
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\obj\Debug\EssentialTrainingTests.csproj.CopyComplete
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\obj\Debug\EssentialTrainingTests.dll
+C:\Users\leokn\Documents\c#\essential_training\essential_training\EssentialTrainingTests\obj\Debug\EssentialTrainingTests.pdb
