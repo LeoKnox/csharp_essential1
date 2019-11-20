@@ -89,7 +89,7 @@ namespace testthree
     {
         Console.Write("Type text: ");
         string words = Console.ReadLine();
-        Console.WriteLine("Writing " + words + "!");
+        Console.WriteLine("Writing " + words + "! What!?");
     }
     class MoreLine
     {
