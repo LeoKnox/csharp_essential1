@@ -4,7 +4,7 @@ using System.Text;
 
 namespace essential_training
 {
-    class SimpleArray
+    public class SimpleArray
     {
         public string[] Classes;
 
