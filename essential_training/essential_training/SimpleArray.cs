@@ -10,7 +10,7 @@ namespace essential_training
 
         public SimpleArray()
         {
-            Classes = new string[4] { "Warrior", "Scout", "Wizard", "Alchemist" };
+            Classes = new string[5] { "Warrior", "Scout", "Wizard", "Alchemist", "Sword Master" };
         }
 
         public override string ToString()
