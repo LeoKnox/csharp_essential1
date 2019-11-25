@@ -15,7 +15,7 @@ namespace essential_training
 
         public override string ToString()
         {
-            return "There are " + Classes.Length + " and they are: " + Classes.ToString();
+            return "These are this many classes " + Classes.Length + " and they are: " + Classes.ToString();
         }
     }
 }
