@@ -7,7 +7,21 @@ namespace TestApplication.Models
 {
     public class FirstCaster
     {
-        private int casterLevel;
+        public string CasterName; // public identifiers and methods get Capital first letter
+        private int casterLevel; // private identifiers get Lower Case first letter
+
+        public FirstCaster()
+        {
+            CasterName = "Dum Dum";
+            casterLevel = 0;
+        }
+
+        public FirstCaster(string name, int level)
+        {
+            CasterName = name;
+            casterLevel = level;
+        }
+
         public int FireBall()
         {
             Random random = new Random();
