@@ -12,7 +12,7 @@ namespace testthree
             listOfNumbers.Where(item => item >= 3)
             Console.WriteLine("Hello " + Enum.GetName(typeof(Gusts), 1));
             Console.WriteLin($"I've been {listOfNumbers[1]}");
-            School test = new School("Swag", "111111111");
+            School test = new School("Swag", "11111");
             Console.WriteLine("I live!");
             Console.WriteLinte("Writing more text");
             int? ieye = null;
